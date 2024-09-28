@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"/>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <div class="columns">
+          <div class="column is centered">
+            <h1 class="title">Weather Dashboard</h1>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="columns">
+        <div class="column is one-third">
+         <!---search-->
+         <form id="search-form">
+         <div class="field has-addons">
+            <div class="control">
+              <input class="input" type="text" id="city" name="city">
+            </div>
+            <div class="control">
+              <button class="button is-info">
+                Search
+              </button>
+        </div>
+         </div>
+        </form>
+        </div>
+        <div class="column is two-third">
+          <!---display-->
+          <div id="current">
+            <div class="card">
+                <div class="card-content">
+                  <div class="content">
+                   <h2 class="title"> Atlanta (09/11/2024)</h2>
+                   <p>Temp: 89°F</p>
+                   <p>Wind: 8 MPH</p>
+                   <p>Humidity: 29%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="five-day" class="grid">
+                <div class="cell">   <div class="card">
+                    <div class="card-content">
+                      <div class="content">
+                       <h2 class="title"> Atlanta (09/11/2024)</h2>
+                       <p>Temp: 89°F</p>
+                       <p>Wind: 8 MPH</p>
+                       <p>Humidity: 29%</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <div class="content">
+                       <h2 class="title"> Atlanta (09/11/2024)</h2>
+                       <p>Temp: 89°F</p>
+                       <p>Wind: 8 MPH</p>
+                       <p>Humidity: 29%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <div class="content">
+                       <h2 class="title"> Atlanta (09/11/2024)</h2>
+                       <p>Temp: 89°F</p>
+                       <p>Wind: 8 MPH</p>
+                       <p>Humidity: 29%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <div class="content">
+                       <h2 class="title"> Atlanta (09/11/2024)</h2>
+                       <p>Temp: 89°F</p>
+                       <p>Wind: 8 MPH</p>
+                       <p>Humidity: 29%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <div class="content">
+                       <h2 class="title"> Atlanta (09/11/2024)</h2>
+                       <p>Temp: 89°F</p>
+                       <p>Wind: 8 MPH</p>
+                       <p>Humidity: 29%</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
